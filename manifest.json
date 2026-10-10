@@ -1,0 +1,153 @@
+{
+  "status": "release-packages",
+  "skills": [
+    {
+      "id": "antd-design",
+      "name": "Ant Design 设计顾问",
+      "version": "1.0.0",
+      "entry": "skills/antd-design/SKILL.md",
+      "verification": {
+        "label": "真实组件示例已验证",
+        "scopeNote": "示例使用 antd 5.27.6；其他版本与目标项目需另行验证。",
+        "date": "2026-10-09",
+        "level": "demo"
+      },
+      "license": "许可待补充",
+      "archiveSha256": "8ff664131b3282c7d7cdc26d42f3706479412d452d8fa45ecb2f10160b60af06"
+    },
+    {
+      "id": "b-end-design-skill",
+      "name": "B 端页面设计",
+      "version": "1.0.0",
+      "entry": "skills/b-end-design-skill/SKILL.md",
+      "verification": {
+        "label": "三页交互样板已验证",
+        "scopeNote": "演示数据保存在页面内存；生产权限与后端持久化未验证。",
+        "date": "2026-10-09",
+        "level": "demo"
+      },
+      "license": "许可待补充",
+      "archiveSha256": "15be518121f1cdb5d637e36eb02c7100a9cfb4c52b069f43008a6555a80eb120"
+    },
+    {
+      "id": "wechat-miniprogram-design",
+      "name": "微信小程序设计",
+      "version": "1.0.0",
+      "entry": "skills/wechat-miniprogram-design/SKILL.md",
+      "verification": {
+        "label": "浏览器原型已验证",
+        "scopeNote": "原生配置、部分官方条款与真机适配仍待专项验证。",
+        "date": "2026-10-09",
+        "level": "demo"
+      },
+      "license": "许可待补充",
+      "archiveSha256": "78e8469fe7d57572d7314da8459411e30d3ab08eeb90ba1aa32f1944e516dce9"
+    },
+    {
+      "id": "echarts-chart-blocks",
+      "name": "ECharts 图表积木",
+      "version": "1.0.0",
+      "entry": "skills/echarts-chart-blocks/SKILL.md",
+      "verification": {
+        "label": "脚本与图表样例已验证",
+        "scopeNote": "HTML 通过 CDN 加载 ECharts 5.4.3；React 骨架需在项目中验证。",
+        "date": "2026-10-09",
+        "level": "demo"
+      },
+      "license": "许可待补充",
+      "archiveSha256": "0ce15119b4fd16583786eb90b6bb35ea809041aa86d85512d7e081d27e758f42"
+    },
+    {
+      "id": "product-icons",
+      "name": "Product Icons",
+      "version": "1.0.0",
+      "entry": "skills/product-icons/SKILL.md",
+      "verification": {
+        "label": "38 张资产完整性已核验",
+        "scopeNote": "13 条原有映射保留；home 背景、资产许可和项目接入待完善。",
+        "date": "2026-10-09",
+        "level": "demo"
+      },
+      "license": "资产许可待确认",
+      "archiveSha256": "4511659b352ffa0af66adfa47daca497c993bac33ac238fa1e26c348bfb8f3a9"
+    },
+    {
+      "id": "baux-ai-workspace-skill",
+      "name": "BAUX AI Workspace",
+      "version": "1.0.0",
+      "entry": "skills/baux-ai-workspace-skill/SKILL.md",
+      "verification": {
+        "label": "交互样板已验证",
+        "scopeNote": "演示使用虚构数据与本地规则；真实 AI、后端权限、采购流程未验证。",
+        "date": "2026-10-09",
+        "level": "demo"
+      },
+      "license": "自定义许可；公开分发方式待确认",
+      "archiveSha256": "4b7b00fdc8cb99845bc42f91ea5ef432bf8a88e4acf806d44c50de19146e20f9"
+    },
+    {
+      "id": "page-quality-validator",
+      "name": "B 端页面规则校验",
+      "version": "1.0.0",
+      "entry": "skills/page-quality-validator/SKILL.md",
+      "verification": {
+        "label": "规则单测通过，页面实测待完成",
+        "scopeNote": "已验证动作可用性与报告退出码语义、脚手架生成和拒绝覆盖；未完成 Playwright 浏览器正反场景、三次重复及跨工具验证。",
+        "date": "2026-10-10",
+        "level": "unit"
+      },
+      "license": "原包未声明许可，待补充",
+      "archiveSha256": "db5b28bf2253a5e33f78f40a8737cba05645088304f3b9c14ce4dd4d6c4cc6b8"
+    },
+    {
+      "id": "hy-report",
+      "name": "B 端业务数据报告",
+      "version": "1.0.0",
+      "entry": "skills/hy-report/SKILL.md",
+      "verification": {
+        "label": "销售样例 11 图渲染通过",
+        "scopeNote": "5 项渲染回归测试通过；三套样例重新生成，销售 11 个图表浏览器渲染成功。经营/增长仅生成检查，样例业务结论未独立审计；工单/行为及跨工具流程待实测。",
+        "date": "2026-10-10",
+        "level": "demo"
+      },
+      "license": "原包未附独立许可，第三方资源条款待核对",
+      "archiveSha256": "6e47fdc4f508e6d43be9e53806ef8878bade101a77b968d9ccd653bdba36457a"
+    }
+  ],
+  "repository": "https://github.com/jojowang521/baux-skill-stack",
+  "distribution": "zip",
+  "downloads": [
+    {
+      "file": "antd-design-1.0.0.zip",
+      "sha256": "9ce5501998105f64cd03ef28be2e92d1be3988ca7045c0b63b15d898b5975795"
+    },
+    {
+      "file": "b-end-design-skill-1.0.0.zip",
+      "sha256": "f988eadea6e35778a1d5093108814ddd02f450694795cbbe771caca8b5313b46"
+    },
+    {
+      "file": "baux-ai-workspace-skill-1.0.0.zip",
+      "sha256": "f6c870ec302096ba36a68112590c03f80ff5acd7a05bab336b4898c59d6c638e"
+    },
+    {
+      "file": "echarts-chart-blocks-1.0.0.zip",
+      "sha256": "28218ba7117f124a62329ad2c4b86a6221539371ee612fdcec58ee97baa82749"
+    },
+    {
+      "file": "hy-report-1.0.0.zip",
+      "sha256": "a72bf9f5cec5fe3535846a2ab22a679d0fdead164cf5b3895b92d34c1a881bc1"
+    },
+    {
+      "file": "page-quality-validator-1.0.0.zip",
+      "sha256": "2637cfd953ea91d4a4c886ac2cdf6ae20154e9335d503ed88b5446068b8e4c87"
+    },
+    {
+      "file": "product-icons-1.0.0.zip",
+      "sha256": "d457be8a50fe914bfd7d84dfbefb58815a97116e313c46efb3e0d8698e7a2a20"
+    },
+    {
+      "file": "wechat-miniprogram-design-1.0.0.zip",
+      "sha256": "e97e136e1a5c0305b1e3e67a13a76a3160a72398c2e237b40c856de503b749c5"
+    }
+  ]
+}
