@@ -129,6 +129,20 @@
       "previousIds": [
         "research-to-journey-map"
       ]
+    },
+    {
+      "id": "baux-product-experience-report",
+      "name": "BAUX 产品体验评估报告",
+      "version": "1.0.0",
+      "entry": "baux-product-experience-report/SKILL.md",
+      "verification": {
+        "label": "48 项回归检查通过",
+        "scopeNote": "28 项数据契约、17 项渲染与 3 项主题检查通过，覆盖 4 套样例。样例均非真实验收证据；跨 AI 工具安装与真实产品评估效果待验证。",
+        "date": "2026-10-27",
+        "level": "unit"
+      },
+      "license": "原包未声明独立许可；内置 ECharts 保留 Apache 许可声明",
+      "archiveSha256": "3464c4c4b46a4ef30c6f0cb416864602433c8a0bf4764309a399be75881514db"
     }
   ],
   "repository": "https://github.com/jojowang521/baux-skill-stack",
@@ -173,6 +187,10 @@
     {
       "file": "baux-journey-map-1.0.1.zip",
       "sha256": "53654c19bdd3a7b99bfcf7ecb4ed7b6b0f212b755982cc09a81ec304b0b3a7c1"
+    },
+    {
+      "file": "baux-product-experience-report-1.0.0.zip",
+      "sha256": "3464c4c4b46a4ef30c6f0cb416864602433c8a0bf4764309a399be75881514db"
     }
   ]
 }
