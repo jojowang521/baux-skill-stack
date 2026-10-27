@@ -114,10 +114,10 @@
       "archiveSha256": "6e47fdc4f508e6d43be9e53806ef8878bade101a77b968d9ccd653bdba36457a"
     },
     {
-      "id": "research-to-journey-map",
-      "name": "用户体验地图",
-      "version": "1.0.0",
-      "entry": "research-to-journey-map/SKILL.md",
+      "id": "baux-journey-map",
+      "name": "BAUX 用户体验地图",
+      "version": "1.0.1",
+      "entry": "baux-journey-map/SKILL.md",
       "verification": {
         "label": "20 项回归测试通过",
         "scopeNote": "20 项脚本回归测试通过；采购模拟材料的来源摘录校验通过，7 阶段 HTML 已生成。模拟案例不代表真实用户研究，跨工具端到端与真实项目效果待验证。",
@@ -125,7 +125,10 @@
         "level": "unit"
       },
       "license": "原包未声明许可，待补充",
-      "archiveSha256": "600a6ce0325d5c41102bf6630b81159c87f3fd7063e3a23153498b6852412fc8"
+      "archiveSha256": "53654c19bdd3a7b99bfcf7ecb4ed7b6b0f212b755982cc09a81ec304b0b3a7c1",
+      "previousIds": [
+        "research-to-journey-map"
+      ]
     }
   ],
   "repository": "https://github.com/jojowang521/baux-skill-stack",
@@ -166,6 +169,10 @@
     {
       "file": "research-to-journey-map-1.0.0.zip",
       "sha256": "600a6ce0325d5c41102bf6630b81159c87f3fd7063e3a23153498b6852412fc8"
+    },
+    {
+      "file": "baux-journey-map-1.0.1.zip",
+      "sha256": "53654c19bdd3a7b99bfcf7ecb4ed7b6b0f212b755982cc09a81ec304b0b3a7c1"
     }
   ]
 }
