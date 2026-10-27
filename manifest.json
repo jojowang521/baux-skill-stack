@@ -112,6 +112,20 @@
       },
       "license": "原包未附独立许可，第三方资源条款待核对",
       "archiveSha256": "6e47fdc4f508e6d43be9e53806ef8878bade101a77b968d9ccd653bdba36457a"
+    },
+    {
+      "id": "research-to-journey-map",
+      "name": "用户体验地图",
+      "version": "1.0.0",
+      "entry": "research-to-journey-map/SKILL.md",
+      "verification": {
+        "label": "20 项回归测试通过",
+        "scopeNote": "20 项脚本回归测试通过；采购模拟材料的来源摘录校验通过，7 阶段 HTML 已生成。模拟案例不代表真实用户研究，跨工具端到端与真实项目效果待验证。",
+        "date": "2026-10-27",
+        "level": "unit"
+      },
+      "license": "原包未声明许可，待补充",
+      "archiveSha256": "600a6ce0325d5c41102bf6630b81159c87f3fd7063e3a23153498b6852412fc8"
     }
   ],
   "repository": "https://github.com/jojowang521/baux-skill-stack",
@@ -148,6 +162,10 @@
     {
       "file": "wechat-miniprogram-design-1.0.0.zip",
       "sha256": "e97e136e1a5c0305b1e3e67a13a76a3160a72398c2e237b40c856de503b749c5"
+    },
+    {
+      "file": "research-to-journey-map-1.0.0.zip",
+      "sha256": "600a6ce0325d5c41102bf6630b81159c87f3fd7063e3a23153498b6852412fc8"
     }
   ]
 }
