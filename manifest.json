@@ -143,6 +143,20 @@
       },
       "license": "原包未声明独立许可；内置 ECharts 保留 Apache 许可声明",
       "archiveSha256": "3464c4c4b46a4ef30c6f0cb416864602433c8a0bf4764309a399be75881514db"
+    },
+    {
+      "id": "baux-crm-starter-kit",
+      "name": "BAUX CRM Starter Kit",
+      "version": "1.0.0",
+      "entry": "baux-crm-starter-kit/SKILL.md",
+      "verification": {
+        "label": "源码构建与交互闭环已验证",
+        "scopeNote": "TypeScript 检查与 Vite 构建通过；客户新增编辑、刷新保留、详情、删除保护、筛选分页、嵌套弹窗焦点与窄屏导航经 Playwright 验证。使用虚构数据，不包含真实 CRM、后端鉴权或模型接入；跨工具安装待独立验证。",
+        "date": "2026-11-08",
+        "level": "demo"
+      },
+      "license": "作者原创；独立许可待补充，依赖库遵循各自条款",
+      "archiveSha256": "ff9eb33208c53e401c834625a1eb0552fa14a98eeb9952900fb00ebb0306406a"
     }
   ],
   "repository": "https://github.com/jojowang521/baux-skill-stack",
@@ -191,6 +205,10 @@
     {
       "file": "baux-product-experience-report-1.0.0.zip",
       "sha256": "3464c4c4b46a4ef30c6f0cb416864602433c8a0bf4764309a399be75881514db"
+    },
+    {
+      "file": "baux-crm-starter-kit-1.0.0.zip",
+      "sha256": "ff9eb33208c53e401c834625a1eb0552fa14a98eeb9952900fb00ebb0306406a"
     }
   ]
 }
