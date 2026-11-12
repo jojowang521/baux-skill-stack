@@ -157,6 +157,20 @@
       },
       "license": "作者原创；独立许可待补充，依赖库遵循各自条款",
       "archiveSha256": "ff9eb33208c53e401c834625a1eb0552fa14a98eeb9952900fb00ebb0306406a"
+    },
+    {
+      "id": "baux-iteration-acceptance",
+      "name": "BAUX 迭代验收",
+      "version": "0.3.1",
+      "entry": "baux-iteration-acceptance/SKILL.md",
+      "verification": {
+        "label": "38 项测试与模拟闭环验证通过",
+        "scopeNote": "38 项单元与回归测试、41 步订单收货演示及 5 步 Figma 离线演示通过；本地路径与绝对 HTTP 测试地址均经浏览器验证，中文文件名和解压后证据链接检查通过。演示使用模拟数据；真实业务环境、Figma 在线流程及跨工具安装待验证。",
+        "date": "2026-11-12",
+        "level": "demo"
+      },
+      "license": "独立使用许可尚未声明，待作者补充",
+      "archiveSha256": "d79fc10e97bc5c8a60ca584b249a3acc35261ac7a526e373e8f7a59207c07d82"
     }
   ],
   "repository": "https://github.com/jojowang521/baux-skill-stack",
@@ -209,6 +223,10 @@
     {
       "file": "baux-crm-starter-kit-1.0.0.zip",
       "sha256": "ff9eb33208c53e401c834625a1eb0552fa14a98eeb9952900fb00ebb0306406a"
+    },
+    {
+      "file": "baux-iteration-acceptance-0.3.1.zip",
+      "sha256": "d79fc10e97bc5c8a60ca584b249a3acc35261ac7a526e373e8f7a59207c07d82"
     }
   ]
 }
